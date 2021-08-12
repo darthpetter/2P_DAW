@@ -1,4 +1,4 @@
-<?php include('base_datos.php')?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +16,9 @@
 </head>
 <body>
     <header>
+    <?php include('base_datos.php')?>
         <span>
-            PHP-MySQL CRUD
+            PHP-MySQL CRUD 
         </span>
+   
     </header>
