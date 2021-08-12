@@ -1,8 +1,8 @@
 <?php
-$hostname= 'localhost';
-$user    =  'root';
-$pwd     =  '';
-$datebase = 'agenda_2021ci_65';
+$hostname= '127.0.0.1';
+$user    =  'petter';
+$pwd     =  'KRSN98*petter*';
+$datebase = 'agencia';
 
 $connexion = mysqli_connect($hostname , $user, $pwd, $datebase);
 if (!$connexion)
