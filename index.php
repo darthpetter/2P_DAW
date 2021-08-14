@@ -1,7 +1,7 @@
 <?php include('objetos/header.php')?>
     <main>
         <div id="contenedor">
-            <div>
+            <div id="formulario">
                 <form action="guardar_tarea.php" method="POST">
                     <div id="form__campos">
                         <input type="text" id="titulo" name="titulo" placeholder="Titulo"/>
@@ -31,7 +31,7 @@
                             <tr>
                                 <td><?php echo $fila['titulo'];?></td>
                                 <td><?php echo $fila['descripcion'];?></td>
-                                <td><?php echo $fila['created_at'];?></td>
+                                <td><?php echo date('d-m-Y H:i:s', strtotime($fila['created_at']));?></td>
                                 <td>
                                     <div class="div_botones">
                                             <a class="acciones editar" href="editar_tarea.php?ID=<?php echo $fila['ID'];?>">

@@ -14,13 +14,13 @@ header>span{
 }
 main{
     padding:6rem 8rem;
-    height:40vh;
+    min-height: 50vh;
     font-family: 'Roboto', sans-serif;
 }
 footer{
     cursor:pointer;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 1rem;
     width: 100%;
     bottom: 0;
@@ -153,8 +153,9 @@ svg{
         font-size:1.4rem; 
     }
     main{
-        padding:4rem;
+        padding:2rem;
         font-family: 'Roboto', sans-serif;
+        min-height: 70vh;
     }
     #contenedor{
         display:grid;
