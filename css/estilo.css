@@ -163,3 +163,8 @@ svg{
         row-gap: 2rem;
     }    
 }
+@media screen and (max-height:300px) {
+    footer{
+        display:none;
+    }
+}
